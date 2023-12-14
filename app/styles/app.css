@@ -471,3 +471,13 @@ aside li {
 .account-logout {
   display: inline-block;
 }
+
+
+/* Banner css  */
+
+.main-banner img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
