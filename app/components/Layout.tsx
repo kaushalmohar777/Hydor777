@@ -14,7 +14,7 @@ import {
   PredictiveSearchResults,
 } from '~/components/Search';
 
-import Banner from '~/components/Banner';
+
 
 
 export type LayoutProps = {
@@ -38,7 +38,7 @@ export function Layout({
       <SearchAside />
       <MobileMenuAside menu={header?.menu} shop={header?.shop} />
       {header && <Header header={header} cart={cart} isLoggedIn={isLoggedIn} />}
-      <Banner/>
+      
       <main>{children}</main>
       <Suspense>
         <Await resolve={footer}>
